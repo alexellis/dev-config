@@ -1,0 +1,23 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "alt+up",
+    "command": "cursorHome",
+    "when": "editorTextFocus" 
+    },
+    { "key": "alt+down",
+    "command": "cursorEnd",
+    "when": "editorTextFocus"
+    },
+    { "key": "shift+alt+up",
+    "command": "cursorHomeSelect",
+    "when": "editorTextFocus"
+    },
+    { "key": "shift+alt+down",
+    "command": "cursorEndSelect",
+    "when": "editorTextFocus" 
+    },
+    { "key": "ctrl+w",
+    "command": "deleteWordLeft",
+    "when": "editorTextFocus" 
+    }
+]
