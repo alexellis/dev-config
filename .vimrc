@@ -5,5 +5,6 @@ set shiftwidth=4
 set expandtab
 
 syntax on
+set number
 
 colorscheme desert
