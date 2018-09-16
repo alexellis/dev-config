@@ -1,0 +1,20 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "ctrl+w",
+      "command": "workbench.action.closeWindow",
+      "when": "!editorIsOpen && !multipleEditorGroups && !terminalFocus"
+    },
+    { "key": "ctrl+e",
+      "command": "workbench.action.quickOpen",
+      "when": "!terminalFocus"
+    },
+    { "key": "ctrl+e",
+      "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+      "when": "inFilesPicker && inQuickOpen && !terminalFocus"
+    },
+    {
+      "key": "ctrl+e",
+      "command": "-workbench.action.quickOpen"
+    }
+  ]
+
